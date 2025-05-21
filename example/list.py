@@ -1,4 +1,4 @@
-fruits = ["Apple", "Banana", "Cherry"]  
+basket = ["Apple", "Banana", "Cherry","lol"]  
 
-for fruit in fruits:  
+for fruit in basket:  
     print(fruit)
