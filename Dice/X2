@@ -1,0 +1,27 @@
+import random
+
+# Initialize score and rolls list
+score = 0
+rolls = []
+
+# Welcome message
+print("Welcome to the game!")
+print("Score as much as possible. Try to reach 50 points.")
+
+# Game loop until the score reaches 50 or more
+while score < 50:
+    input("Press enter to roll the dice...")
+    die = random.randint(1, 6)
+    score += die # Update score
+    rolls.append(die) # Store number of rolls
+    print(f"You rolled a {die}.")
+    print(f"Current score: {score}")
+
+# Game end message
+print("Congratulations! You've reached 50 or more points.")
+print(f"Final score: {score}")
+print(f"Rolls made: {rolls}")
+
+
+     
+
